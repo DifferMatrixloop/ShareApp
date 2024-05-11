@@ -1,4 +1,4 @@
-package develop.differexemples.app;
+package develop.differexemples.matrixloop;
 
 import android.content.Intent;
 import android.os.Bundle;
