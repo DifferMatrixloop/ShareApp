@@ -31,7 +31,7 @@ public class ShareAppActivity extends AppCompatActivity {
     public void sendEmailInvite(View view) {
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
         emailIntent.setType("message/rfc822");
-        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Попробуйте это приложение");
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Попробуйте это приложение ");
         emailIntent.putExtra(Intent.EXTRA_TEXT, "Я хочу порекомендовать это приложение...");
         startActivity(Intent.createChooser(emailIntent, "Отправить приглашение по Email"));
     }
