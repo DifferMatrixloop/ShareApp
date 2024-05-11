@@ -1,4 +1,4 @@
-package develop.differexemples.shareapp;
+package develop.differexemples.app;
 
 import android.content.Intent;
 import android.os.Bundle;
